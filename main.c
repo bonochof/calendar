@@ -32,6 +32,11 @@ int main(){
   printf("Year:"); scanf("%d", &y);
   printf("Month:"); scanf("%d", &m);
 
+  if(m < 3 || m > 14){
+    printf("ERROR: month range is (3 .. 14)\n");
+    return 1;
+  }
+
   printf("---\n");
   printf("Sun Mon Tue Wed Thu Fri Sat\n");
   for(i = 0; i < DayOfWeek(y, m, 1); i++){
