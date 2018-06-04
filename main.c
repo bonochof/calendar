@@ -32,9 +32,13 @@ int main(){
   printf("Year:"); scanf("%d", &y);
   printf("Month:"); scanf("%d", &m);
 
-  if(m < 3 || m > 14){
+  if(m < 1 || m > 12){
     printf("ERROR: month range is (3 .. 14)\n");
     return 1;
+  }
+  if(m == 1 || m == 2){
+    y--;
+    m += 12;
   }
 
   printf("---\n");
