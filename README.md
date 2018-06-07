@@ -2,12 +2,12 @@
 Calendar output program
 
 ## 実行方法
-'''
+```
 $ gcc main.c
 $ ./a.out
 Year: (年を入力)
 Month: (月を入力)
-'''
+```
 
 ## 言語
 C
