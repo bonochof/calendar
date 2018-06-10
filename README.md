@@ -2,6 +2,7 @@
 Calendar output program
 
 ## 実行方法
+(gcc環境の場合)
 ```
 $ gcc main.c
 $ ./a.out
